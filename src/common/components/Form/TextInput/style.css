@@ -1,0 +1,14 @@
+.text-input input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 70%;
+  padding: 10px 0 10px 10px;
+  border: none;
+  border-bottom: 1px black solid;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+  font-weight: 500;
+}

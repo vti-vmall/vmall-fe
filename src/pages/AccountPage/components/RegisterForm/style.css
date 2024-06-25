@@ -1,0 +1,37 @@
+.go-login {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.login-form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.login-form {
+  width: 500px;
+  font-family: Montserrat,serif;
+}
+
+
+.login-form img {
+  width: 80px;
+}
+
+
+.login-form button {
+  margin-top: 10px;
+  width: 70%;
+  background-color: orange;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.login-form-card {
+  text-align: center;
+}

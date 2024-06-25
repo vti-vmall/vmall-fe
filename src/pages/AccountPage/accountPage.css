@@ -1,0 +1,15 @@
+.welcome-container {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-container img {
+  width: 50%;
+}
+
+.form-title {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px 0;
+  color: #F77F00;
+}
