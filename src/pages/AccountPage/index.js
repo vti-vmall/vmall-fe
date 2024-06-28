@@ -30,7 +30,8 @@ const AccountPage = () => {
   const handleLoginFormSubmitted = async (data) => {
     try {
       let loginResponse = await login(data)
-      let token = loginResponse.data.token
+      let token = loginResponse.data.data.token;
+      console.log(token)
       localStorage.setItem("token", token)
       nav("/")
     }catch (error){
